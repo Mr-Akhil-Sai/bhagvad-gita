@@ -5,8 +5,11 @@
   font-family: "Source Serif Pro", serif;
 }
 .bg {
-  width: 50vw;
+  position: absolute;
+  left: -50%;
+  width: 100vw;
   height: 100vh;
+  border-radius: 20em;
   background: linear-gradient(
     214.15deg,
     rgba(249, 192, 78, 0.25) 2.49%,
@@ -43,10 +46,13 @@ a {
   font-weight: bolder;
 }
 .logIn {
+  padding: .1em 2em;
+  border-radius: 2em;
   background: linear-gradient(273.26deg, #ffcc66 6.37%, #fd9c5b 98.75%);
 }
 .tagLine {
   position: absolute;
+  left: 50%;
   top: 15%;
   font-size: 2.5rem;
   margin: 0 2em;
@@ -55,6 +61,7 @@ a {
   margin: 0 1.5em;
   font-family: "Open Sans", sans-serif;
   position: absolute;
+  left: 50%;
   top: 35%;
   font-size: 3.5rem;
   font-weight: bolder;
@@ -65,15 +72,16 @@ a {
 .timePeriod {
   margin: 0 4em;
   position: absolute;
+  left: 50%;
   top: 65%;
   font-size: 1.4rem;
 }
-.childrenImageDiv{
+.childrenImageDiv {
   position: absolute;
-  left: 55%;
-  top:25%;
+  left: 110%;
+  top: 25%;
 }
-.childrenImage{
+.childrenImage {
   width: 18vw;
   height: 45vh;
   border-radius: 2em;
@@ -81,15 +89,16 @@ a {
 .enrolNow {
   margin: 0 4em;
   position: absolute;
+  left: 50%;
   top: 80%;
-  padding: .5em 2em;
+  padding: 0.5em 2em;
   background: linear-gradient(273.26deg, #ffcc66 6.37%, #fd9c5b 98.75%);
   border-radius: 2em;
   border: none;
   font-size: 1.2rem;
 }
-.iskcon{
-  font-family: 'Open Sans', sans-serif;
+.iskcon {
+  font-family: "Open Sans", sans-serif;
   background: linear-gradient(273.26deg, #ffcc66 6.37%, #fd9c5b 98.75%);
   color: transparent;
   -webkit-background-clip: text;
@@ -98,6 +107,7 @@ a {
 .deadLine {
   margin: 0 5em;
   position: absolute;
+  left: 50%;
   top: 90%;
 }
 q {
@@ -106,10 +116,10 @@ q {
   -webkit-background-clip: text;
   font-size: 1.5rem;
 }
-
 .proverb {
   position: absolute;
   top: 85%;
-  left: 70%;
+  left: 120%;
+  width: 30%;
   color: black;
 }
