@@ -63,22 +63,53 @@ a {
   -webkit-background-clip: text;
 }
 .timePeriod {
-  margin: 0 5em;
+  margin: 0 4em;
   position: absolute;
-  top: 70%;
+  top: 65%;
+  font-size: 1.4rem;
+}
+.childrenImageDiv{
+  position: absolute;
+  left: 55%;
+  top:25%;
+}
+.childrenImage{
+  width: 18vw;
+  height: 45vh;
+  border-radius: 2em;
 }
 .enrolNow {
-  margin: 0 6em;
+  margin: 0 4em;
   position: absolute;
-  top: 82%;
+  top: 80%;
+  padding: .5em 2em;
+  background: linear-gradient(273.26deg, #ffcc66 6.37%, #fd9c5b 98.75%);
+  border-radius: 2em;
+  border: none;
+  font-size: 1.2rem;
+}
+.iskcon{
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(273.26deg, #ffcc66 6.37%, #fd9c5b 98.75%);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 900;
 }
 .deadLine {
   margin: 0 5em;
   position: absolute;
   top: 90%;
 }
+q {
+  background: linear-gradient(273.26deg, #ffcc66 6.37%, #fd9c5b 98.75%);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 1.5rem;
+}
+
 .proverb {
   position: absolute;
   top: 85%;
-  left: 80%;
+  left: 70%;
+  color: black;
 }
