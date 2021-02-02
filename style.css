@@ -40,7 +40,7 @@ a {
   font-size: 1.5rem;
   font-weight: 600;
 }
-a:hover{
+a:hover {
   background: linear-gradient(273.26deg, #ffcc66 6.37%, #fd9c5b 98.75%);
   color: transparent;
   -webkit-background-clip: text;
@@ -145,6 +145,12 @@ a:hover{
   border-radius: 2em;
   border: none;
   font-size: 1.2rem;
+  font-weight: 900;
+}
+#icon {
+  position: absolute;
+  top: 83.4%;
+  left: 65%;
 }
 .iskcon {
   font-family: "Open Sans", sans-serif;
