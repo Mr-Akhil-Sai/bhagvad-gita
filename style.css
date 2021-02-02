@@ -46,7 +46,7 @@ a {
   font-weight: bolder;
 }
 .logIn {
-  padding: .1em 2em;
+  padding: 0.1em 2em;
   border-radius: 2em;
   background: linear-gradient(273.26deg, #ffcc66 6.37%, #fd9c5b 98.75%);
 }
@@ -75,10 +75,49 @@ a {
   left: 110%;
   top: 25%;
 }
+.childrenbg1{
+  width: 22vw;
+  height: 50vh;
+  background: rgba(238, 159, 1, 0.2);
+  position: absolute;
+  left: 108%;
+  top: 23%;
+  filter: blur(5px);
+  border-radius: 2em;
+  transform: rotate(60deg);
+  /* z-index: 1; */
+}
+.childrenbg2{
+  width: 22vw;
+  height: 50vh;
+  background: rgba(238, 159, 1, 0.2);
+  position: absolute;  
+  left: 108%;
+  top: 23%;
+  filter: blur(5px);
+  border-radius: 2em;
+  transform: rotate(30deg);
+  /* z-index: 2; */
+}
+.childrenbg3{
+  width: 22w;
+  height: 50vh;
+  background: rgba(238, 159, 1, 0.2);
+  position: absolute;
+  left: 108%;
+  top: 23%;
+  filter: blur(5px);
+  border-radius: 2em;
+  transform: rotate(10deg);
+  /* z-index: 3; */
+}
 .childrenImage {
+  position: absolute;
   width: 18vw;
   height: 45vh;
   border-radius: 2em;
+
+  /* z-index: 4; */
 }
 .enrolNow {
   margin-left: 55%;
@@ -111,4 +150,7 @@ q {
   margin-top: -5%;
   width: 20%;
   color: black;
+}
+.quote{
+  color:black;  
 }
