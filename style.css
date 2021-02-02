@@ -103,17 +103,7 @@ a:hover {
   filter: blur(5px);
   border-radius: 2em;
   transform: rotate(60deg);
-  /* animation: bg1 2s ease-in-out; */
 }
-
-/* @keyframes bg1{
-  0%{
-    transform: rotate(30deg);
-  }
-  100%{
-    transform: rotate(60deg);
-  }
-} */
 .childrenbg2 {
   width: 22vw;
   height: 50vh;
@@ -124,16 +114,7 @@ a:hover {
   filter: blur(5px);
   border-radius: 2em;
   transform: rotate(30deg);
-  /* animation: bg2 2s ease-in-out; */
 }
-/* @keyframes bg2{
-  0%{
-    transform: rotate(60deg);
-  }
-  100%{
-    transform: rotate(30deg);
-  }
-} */
 .childrenbg3 {
   width: 22w;
   height: 50vh;
@@ -144,17 +125,13 @@ a:hover {
   filter: blur(5px);
   border-radius: 2em;
   transform: rotate(10deg);
-  /* z-index: 3; */
 }
 .childrenImage {
   position: absolute;
   width: 18vw;
   height: 45vh;
   border-radius: 2em;
-
-  /* z-index: 4; */
 }
-
 .enrolNow {
   margin-left: 55%;
   margin-top: 3%;

@@ -11,9 +11,15 @@ function rotateBg() {
       {
         transform: "rotate(60deg)",
       },
+      {
+        transform: "rotate(30deg)",
+      },
+      {
+        transform: "rotate(60deg)",
+      }
     ],
     {
-      duration: 200
+      duration: 500,
     }
   );
   childrenbg2.animate(
@@ -24,10 +30,15 @@ function rotateBg() {
       {
         transform: "rotate(30deg)",
       },
+      {
+        transform: "rotate(60deg)",
+      },
+      {
+        transform: "rotate(30deg)",
+      }
     ],
     {
-      duration: 200
+      duration: 500,
     }
   );
 }
-
