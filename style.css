@@ -38,7 +38,15 @@ a {
   text-decoration: none;
   color: rgb(128, 127, 127);
   font-size: 1.5rem;
+  font-weight: 600;
 }
+a:hover{
+  background: linear-gradient(273.26deg, #ffcc66 6.37%, #fd9c5b 98.75%);
+  color: transparent;
+  -webkit-background-clip: text;
+  border-bottom: 2px solid orange;
+}
+
 .logo {
   font-family: "Open Sans", sans-serif;
   color: rgb(92, 91, 91);
@@ -49,17 +57,21 @@ a {
   padding: 0.1em 2em;
   border-radius: 2em;
   background: linear-gradient(273.26deg, #ffcc66 6.37%, #fd9c5b 98.75%);
+  color: rgb(92, 91, 91);
+  font-size: 1.5rem;
+  font-weight: 600;
 }
+
 .tagLine {
   margin-top: 7%;
   margin-left: 55%;
   font-size: 2.5rem;
 }
-.under{
-background:linear-gradient(273.26deg, #ffcc66 6.37%, #fd9c5b 98.75%);
-margin-top: 4px;
-height: 3px;
-width: 65px;
+.under {
+  background: linear-gradient(273.26deg, #ffcc66 6.37%, #fd9c5b 98.75%);
+  margin-top: 5px;
+  height: 3px;
+  width: 85px;
 }
 .tagLine2 {
   margin-left: 55%;
@@ -81,7 +93,7 @@ width: 65px;
   left: 110%;
   top: 25%;
 }
-.childrenbg1{
+.childrenbg1 {
   width: 22vw;
   height: 50vh;
   background: rgba(238, 159, 1, 0.2);
@@ -93,11 +105,11 @@ width: 65px;
   transform: rotate(60deg);
   /* z-index: 1; */
 }
-.childrenbg2{
+.childrenbg2 {
   width: 22vw;
   height: 50vh;
   background: rgba(238, 159, 1, 0.2);
-  position: absolute;  
+  position: absolute;
   left: 108%;
   top: 23%;
   filter: blur(5px);
@@ -105,7 +117,7 @@ width: 65px;
   transform: rotate(30deg);
   /* z-index: 2; */
 }
-.childrenbg3{
+.childrenbg3 {
   width: 22w;
   height: 50vh;
   background: rgba(238, 159, 1, 0.2);
@@ -155,8 +167,7 @@ q {
   margin-left: 120%;
   margin-top: -5%;
   width: 20%;
-  color: black;
 }
-.quote{
-  color:black;  
+.quote {
+  color: rgb(29, 28, 28);
 }
